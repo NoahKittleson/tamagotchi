@@ -1,0 +1,35 @@
+<h1>Your Tamagotchi:</h1>
+<h4><strong>$newTamagotchi.getName()</strong></h4>
+<p>Happiness: $newTamagotchi.getHappiness() /100</p>
+<p>Hunger: $newTamagotchi.getHunger() /100</p>
+<p>Energy: $newTamagotchi.getEnergy() /100</p>
+<p>Discipline: $newTamagotchi.getDiscipline() /100</p>
+<hr>
+<p>Choose an Action:</p>
+
+
+
+<form action="/actions" method="post">
+  <input type="hidden" name="action" value="feed">
+  <button type="submit" id="feed" class="btn btn-default">Feed</button>
+</form>
+
+<form action="/actions" method="post">
+  <input type="hidden" name="action" value="exercise">
+  <button type="submit" id="exercise" class="btn btn-default">Exercise</button>
+</form>
+
+<form action="/actions" method="post">
+  <input type="hidden" name="action" value="sleep">
+  <button type="submit" id="sleep" class="btn btn-default">Sleep</button>
+</form>
+
+<form action="/actions" method="post">
+  <input type="hidden" name="action" value="play">
+  <button type="submit" id="play" class="btn btn-default">Play</button>
+</form>
+
+<form action="/actions" method="post">
+  <input type="hidden" name="action" value="discipline">
+  <button type="submit" id="discipline" class="btn btn-default">Discipline</button>
+</form>
