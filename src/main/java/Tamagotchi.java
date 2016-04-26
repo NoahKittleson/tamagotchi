@@ -39,6 +39,10 @@ public class Tamagotchi {
     return mColor;
   }
 
+  public boolean isAlive() {
+    return mIsAlive;
+  }
+
   public void sleep(){
     mHunger = alterAttribute(mHunger, -5);
     if (mEnergy == 100) {
